@@ -25,10 +25,9 @@ services:
       - "3000"
     networks:
       - appawsnetwork
-    volumes:
-      - "C:/Users/ramon/Documents/programing/web/app-react-aws/app-aws/:/app/:ro"
+    # volumes:
+    #   - "C:/Users/ramon/Documents/programing/web/app-react-aws/app-aws/:/app/:ro"
     
-
 networks:
   appawsnetwork:
     driver: bridge
