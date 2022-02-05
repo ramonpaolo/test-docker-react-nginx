@@ -6,12 +6,8 @@ EXPOSE 3000
 
 WORKDIR /app
 
-COPY /app-aws/package*.json .
-
-RUN yarn install 
-
 COPY /app-aws .
 
-RUN yarn build
+RUN yarn install && yarn run build
 
 CMD yarn start
