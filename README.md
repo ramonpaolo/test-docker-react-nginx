@@ -2,6 +2,8 @@
 
 ---
 
+Para acessar, basta digitar no navegador: http://ec2-54-232-63-13.sa-east-1.compute.amazonaws.com/
+
 ## 📑 Sobre o projeto
 
 É uma aplicação web de test apenas, usando Nginx, React e Docker
